@@ -5,6 +5,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        Person man = new Person( "Lehi", "Daniel");
+        //man.SetAuthor("Lehi");
+        //man.SetTitle("The Great Dragon Ball");
+    
+        Console.WriteLine(man.GetInformalSignature());    
+    
     }
 }
